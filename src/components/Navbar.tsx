@@ -52,12 +52,12 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Pulse Robot"
+          aria-label="Cyber Lab"
         >
           <img 
-            src="/logo.svg" 
-            alt="Pulse Robot Logo" 
-            className="h-7 sm:h-8" 
+            src="/cyber-lab-logo.png" 
+            alt="Cyber Lab Logo" 
+            className="h-12 sm:h-14" 
           />
         </a>
 

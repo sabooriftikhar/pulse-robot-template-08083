@@ -96,31 +96,31 @@ const Hero = () => {
         padding: isMobile ? '100px 12px 40px' : '120px 20px 60px'
       }}
     >
-      <div className="absolute -top-[10%] -right-[5%] w-1/2 h-[70%] bg-pulse-gradient opacity-20 blur-3xl rounded-full"></div>
+      <div className="absolute -top-[10%] -right-[5%] w-1/2 h-[70%] bg-neon-gradient opacity-20 blur-3xl rounded-full"></div>
       
       <div className="container px-4 sm:px-6 lg:px-8" ref={containerRef}>
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center">
           <div className="w-full lg:w-1/2">
             <div 
-              className="pulse-chip mb-3 sm:mb-6 opacity-0 animate-fade-in" 
+              className="cyber-chip mb-3 sm:mb-6 opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.1s" }}
             >
-              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">01</span>
-              <span>Purpose</span>
+              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-cyber-500 text-white mr-2">01</span>
+              <span>Innovation</span>
             </div>
             
             <h1 
               className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.3s" }}
             >
-              Atlas: Where Code<br className="hidden sm:inline" />Meets Motion
+              Cyber Lab:<br className="hidden sm:inline" />Where Business Becomes A Brand
             </h1>
             
             <p 
               style={{ animationDelay: "0.5s" }} 
               className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left"
             >
-              The humanoid companion that learns and adapts alongside you.
+              Transforming businesses into powerful brands through cutting-edge digital solutions and innovative strategies.
             </p>
             
             <div 
@@ -131,7 +131,7 @@ const Hero = () => {
                 href="#get-access" 
                 className="flex items-center justify-center group w-full sm:w-auto text-center" 
                 style={{
-                  backgroundColor: '#FE5C02',
+                  background: 'linear-gradient(135deg, hsl(256, 100%, 50%) 0%, hsl(120, 100%, 50%) 100%)',
                   borderRadius: '1440px',
                   boxSizing: 'border-box',
                   color: '#FFFFFF',
@@ -165,7 +165,7 @@ const Hero = () => {
                 <img 
                   ref={imageRef} 
                   src="/lovable-uploads/5663820f-6c97-4492-9210-9eaa1a8dc415.png" 
-                  alt="Atlas Robot" 
+                  alt="Cyber Lab Innovation" 
                   className="w-full h-auto object-cover transition-transform duration-500 ease-out" 
                   style={{ transformStyle: 'preserve-3d' }} 
                 />
@@ -177,7 +177,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="hidden lg:block absolute bottom-0 left-1/4 w-64 h-64 bg-pulse-100/30 rounded-full blur-3xl -z-10 parallax" data-speed="0.05"></div>
+      <div className="hidden lg:block absolute bottom-0 left-1/4 w-64 h-64 bg-cyber-100/30 rounded-full blur-3xl -z-10 parallax" data-speed="0.05"></div>
     </section>
   );
 };

@@ -63,19 +63,32 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for Pulse Robot
-				pulse: {
-					"50": "#fff7ed",
-					"100": "#ffedd5",
-					"200": "#fed7aa",
-					"300": "#fdba74",
-					"400": "#fb923c",
-					"500": "#f97316", // Primary orange
-					"600": "#ea580c",
-					"700": "#c2410c",
-					"800": "#9a3412",
-					"900": "#7c2d12",
-					"950": "#431407",
+				// Custom colors for Cyber Lab
+				cyber: {
+					"50": "#faf5ff",
+					"100": "#f3e8ff", 
+					"200": "#e9d5ff",
+					"300": "#d8b4fe",
+					"400": "#c084fc",
+					"500": "#8b5cf6", // Primary purple
+					"600": "#7c3aed",
+					"700": "#6d28d9",
+					"800": "#5b21b6",
+					"900": "#4c1d95",
+					"950": "#2e1065",
+				},
+				neon: {
+					"50": "#f0fdf4",
+					"100": "#dcfce7",
+					"200": "#bbf7d0", 
+					"300": "#86efac",
+					"400": "#4ade80",
+					"500": "#22c55e", // Bright green
+					"600": "#16a34a",
+					"700": "#15803d",
+					"800": "#166534",
+					"900": "#14532d",
+					"950": "#052e16",
 				},
 				dark: {
 					"900": "#121212", // Almost black
@@ -137,9 +150,9 @@ export default {
 				'float': 'float 6s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'hero-gradient': 'linear-gradient(90deg, hsla(24, 100%, 83%, 1) 0%, hsla(341, 91%, 68%, 1) 100%)',
-				'hero-gradient-2': 'linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%)',
-				'pulse-gradient': 'linear-gradient(180deg, rgba(249,115,22,0.8) 0%, rgba(249,115,22,0) 100%)',
+				'hero-gradient': 'linear-gradient(135deg, hsl(256, 100%, 50%) 0%, hsl(280, 100%, 60%) 100%)',
+				'cyber-gradient': 'linear-gradient(135deg, hsl(256, 100%, 50%) 0%, hsl(120, 100%, 50%) 100%)',
+				'neon-gradient': 'linear-gradient(180deg, rgba(34,197,94,0.8) 0%, rgba(34,197,94,0) 100%)',
 			},
 			fontFamily: {
 				'sans': ['Inter', 'sans-serif'],
